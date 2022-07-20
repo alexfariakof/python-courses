@@ -1,7 +1,7 @@
 def preencherIventario(lista):
     resp = "S"
     while resp == "S":
-        equipamentos=[input("Equipamento: "), 
+        equipamento=[input("Equipamento: "), 
                       float(input("Valor: ")),
                       int(input("Número Serial: ")),
                       input("Departamento: ")]
@@ -11,10 +11,10 @@ def preencherIventario(lista):
 
 def exibirIventario(lista):
     for element in lista:
-        print("Nome..........: ", element[indice])
-        print("Valor.........: ", element[indice])
-        print("Serial........: ", element[indice])
-        print("Departamento..: ", element[indice])
+        print("Nome..........: ", element[0])
+        print("Valor.........: ", element[1])
+        print("Serial........: ", element[2])
+        print("Departamento..: ", element[3])
 #
 
 def localizarPorNome(lista):
