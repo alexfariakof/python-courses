@@ -1,4 +1,4 @@
-from util import *
+from ControlUser import *
 usuarios = {}
 opcao = printMenuOptions()
 while opcao == "I" or opcao == "P" or opcao == "E" or opcao == "A" or opcao == "L":
