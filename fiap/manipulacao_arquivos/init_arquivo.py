@@ -2,6 +2,8 @@
 # r - Abre o arquivo para leitura
 # a - Abre o arquivo para inserir novas informações 
 # x - Abre o arquivo em modo exclusivo ou seja não pode se aberto enquanto não for fechado.
+# t - retorna o conteudo como string
+# b -  retorna o conteudo no formato binário
 
 arquivo = open("arquivo01.txt", "w", encoding="**utf_8_sig**")
 arquivo.write("Escrevendo conteúdo no meu arquivo!")
